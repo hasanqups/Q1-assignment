@@ -1,0 +1,9 @@
+We have an Excel.xlsx file,that have multiple sheets.Every sheets have some keywords.
+This script use XLSX module to read the Excel file and then turn it to a json format and store in 
+data variable according to current date sheet.
+This script uses the Puppeteer module to open a browser and navigate to Google,and 
+search all keywords separetely in google,then parse the HTML and extract the suggested 
+options from google by using the Cheerio module,and then collect longest and shortest option
+for each keyword and write the data to our Excel file and update it.
+
+note : use node index for run this script .
